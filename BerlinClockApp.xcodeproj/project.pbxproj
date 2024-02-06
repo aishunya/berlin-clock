@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		BF3051052B692D6300DE0531 /* BerlinClockAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051042B692D6300DE0531 /* BerlinClockAppApp.swift */; };
-		BF3051072B692D6300DE0531 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051062B692D6300DE0531 /* ContentView.swift */; };
+		BF3051072B692D6300DE0531 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051062B692D6300DE0531 /* MainView.swift */; };
 		BF3051092B692D6500DE0531 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF3051082B692D6500DE0531 /* Assets.xcassets */; };
 		BF30510C2B692D6500DE0531 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF30510B2B692D6500DE0531 /* Preview Assets.xcassets */; };
+		BF3051132B692E0C00DE0531 /* MainLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051122B692E0C00DE0531 /* MainLogic.swift */; };
+		BF3051152B692F4800DE0531 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051142B692F4800DE0531 /* Color.swift */; };
+		BF3051192B69362500DE0531 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3051182B69362500DE0531 /* K.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF3051012B692D6300DE0531 /* BerlinClockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BerlinClockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF3051042B692D6300DE0531 /* BerlinClockAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BerlinClockAppApp.swift; sourceTree = "<group>"; };
-		BF3051062B692D6300DE0531 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF3051062B692D6300DE0531 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		BF3051082B692D6500DE0531 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF30510B2B692D6500DE0531 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF3051122B692E0C00DE0531 /* MainLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLogic.swift; sourceTree = "<group>"; };
+		BF3051142B692F4800DE0531 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		BF3051182B69362500DE0531 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +58,12 @@
 			isa = PBXGroup;
 			children = (
 				BF3051042B692D6300DE0531 /* BerlinClockAppApp.swift */,
-				BF3051062B692D6300DE0531 /* ContentView.swift */,
+				BF3051062B692D6300DE0531 /* MainView.swift */,
 				BF3051082B692D6500DE0531 /* Assets.xcassets */,
 				BF30510A2B692D6500DE0531 /* Preview Content */,
+				BF3051122B692E0C00DE0531 /* MainLogic.swift */,
+				BF3051142B692F4800DE0531 /* Color.swift */,
+				BF3051182B69362500DE0531 /* K.swift */,
 			);
 			path = BerlinClockApp;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF3051072B692D6300DE0531 /* ContentView.swift in Sources */,
+				BF3051132B692E0C00DE0531 /* MainLogic.swift in Sources */,
+				BF3051152B692F4800DE0531 /* Color.swift in Sources */,
+				BF3051192B69362500DE0531 /* K.swift in Sources */,
+				BF3051072B692D6300DE0531 /* MainView.swift in Sources */,
 				BF3051052B692D6300DE0531 /* BerlinClockAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
